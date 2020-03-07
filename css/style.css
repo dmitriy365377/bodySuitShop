@@ -1,4 +1,45 @@
 html,body { 
     margin: 0; /*сброс стандартных отступов*/
     box-sizing: border-box;
+    background: #f6f8f9;
+    font-family: Arial, Helvetica, sans-serif;
 } 
+
+.container {
+    width: 1200px;
+    margin: 10px auto;
+}
+
+h3 {
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 span {
+    color: orange;
+}
+
+.cart {
+    width: 250px;
+    height: 365px;
+    margin: 0 15px 0 15px;
+    background: #fff;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+} 
+
+.picture{
+    width: 80%;
+    margin-top: 30px;
+}
+
+.name {
+    color: grey;
+   
+}
+
+.cost {
+    color: orange;
+}
