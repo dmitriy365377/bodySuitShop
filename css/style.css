@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box; 
+    margin:0
+}
+
 html,body { 
     margin: 0; /*сброс стандартных отступов*/
     box-sizing: border-box;
@@ -8,12 +13,14 @@ html,body {
 .container {
     width: 1200px;
     margin: 10px auto;
+    display: grid;
 }
 
-h3 {
+.information {
     font-size: 36px;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 h3 span {
@@ -36,10 +43,82 @@ h3 span {
 }
 
 .name {
-    color: grey;
-   
+    color: grey; 
 }
 
 .cost {
     color: orange;
+}
+
+/* -------------------------------------------------------- */
+
+.block1 {
+    margin-top: 20px;
+    width: 50%;
+    min-height: 100px;
+    background: #fff;
+    border: 1px solid grey;
+    justify-self: center;
+    display: flex;
+}
+
+.sale {
+    width: 25%;
+}
+
+.sale-img{
+    width: 80px;
+    height: 80px;
+    background-image: url(../images/sale_img.png);
+    margin:10px auto;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.sale-img span{
+    font-style: italic;
+    font-size: 12px;
+    color: #fff; 
+}
+
+.sale-img p{ 
+    font-size: 18px;
+    color: #fff; 
+}
+
+.slogan {
+    width: 40%;
+    margin: 0 2.23%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.slogan h3 {
+    color: #04404b;
+    font-size: 22px;
+}
+
+.slogan p {
+    color: #495662;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.price {
+    width: 23%;
+    min-height: 100px;
+    margin: 0 2%;
+    color: orange;
+    font-size: 24px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.price p::before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 30px;
+    background-image: url(../images/card_plus.png);
 }
