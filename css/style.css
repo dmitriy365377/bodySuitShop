@@ -122,3 +122,58 @@ h3 span {
     margin-right: 30px;
     background-image: url(../images/card_plus.png);
 }
+
+.row {
+    margin: 0 -1.25%;
+    display: flex;
+    width: 1200px;
+    margin: 10px auto;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+
+.footer {
+    background: #fff;
+    padding: 60px 0 44px 0;
+    font-size: 14px;
+}
+
+.block370 {
+    width: 30.83%;
+    min-height: 100px;
+    margin: 0 1.25%; 
+}
+
+.copyright{ 
+    margin-top: 20px;
+}  
+
+.block170 {
+    width: 14.16%;
+    min-height: 100px;
+    margin: 0 1.25%;
+}
+
+ul.nav a{
+    color: #28313b;
+    text-decoration: none;
+}
+
+ul.nav a:hover{
+    color:#ff5912
+}
+
+
+ul.nav li{
+    margin-bottom: 15px;
+}
+
+.block170 h4 {
+    color: orange;
+    margin-bottom: 20px;
+}
